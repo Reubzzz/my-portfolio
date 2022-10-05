@@ -114,37 +114,37 @@ function Hero2() {
 
 
 
-//BUTTON 
+// //BUTTON 
 
-let clicked = 1
-const tl = gsap.timeline();
-const durations = 1.0
-const ease = 'none';
-let animationisDone = false;
+// let clicked = 1
+// const tl = gsap.timeline();
+// const durations = 1.0
+// const ease = 'none';
+// let animationisDone = false;
 
-document.getElementById("nextPlace").addEventListener("click", nextPlace, false);
+// document.getElementById("nextPlace").addEventListener("click", nextPlace, false);
 
 
-function nextPlace() {
+// function nextPlace() {
 
-    if(!animationisDone){
-        animationisDone = true
+//     if(!animationisDone){
+//         animationisDone = true
 
-      if  (clicked = 1) 
-      {
-            tl.to(camera.position, {
-              z:20,
-              durations,
-              ease,
-              onUpdate: function() {
-                // camera.lookat(0,0,0);
-              }
-            })
+//       if  (clicked = 1) 
+//       {
+//             tl.to(camera.position, {
+//               z:20,
+//               durations,
+//               ease,
+//               onUpdate: function() {
+//                 // camera.lookat(0,0,0);
+//               }
+//             })
 
-      }
+//       }
 
-    }
-}
+//     }
+// }
 
 
 
