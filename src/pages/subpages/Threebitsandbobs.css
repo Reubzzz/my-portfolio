@@ -1,0 +1,42 @@
+.Bitscontainer{
+    width: 100vw;
+    height: 89vh;
+    position:absolute;
+    margin: 0px;
+    padding-top: 5%;
+    background-color:black
+}
+
+.Bitscontainer h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.Bitscontainer p {
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 2%;
+    
+}
+
+
+.BlobsFiles{
+    position:relative;
+    width: 50vw;
+    height: 50vh;
+    float:left;
+    
+}
+
+.PaperFiles{
+    position:relative;
+    width: 50vw;
+    height: 50vh;
+    float:right;
+}

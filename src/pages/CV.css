@@ -1,0 +1,27 @@
+/* CV PAGE */
+
+.PageCV {
+    text-align: center;
+    background-color: rgb(68, 66, 66);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: static;
+}
+
+.Title {
+    font-size: 2rem;
+}
+.Title h1{
+    margin : 0px;
+}
+
+
+.PDF {
+    height: 100%;
+}
+
+
+.embed {
+    height: 100%;
+}

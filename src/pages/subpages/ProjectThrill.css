@@ -1,0 +1,128 @@
+/* ThrillCapital Project */
+
+.projectcontainer{
+    background-color: rgb(68, 66, 66);
+    color: #fff;
+    width: 100%;
+    height: 1800px;
+    display: block;
+    
+}
+
+
+.ThrillTitle h1 {
+    margin : 0px;
+    padding-top: 20px; 
+    font-size: 50px
+  }
+
+
+
+.thrillCapital {
+    width: 100%;
+    padding-top: 2%;
+  
+}
+
+
+
+
+.Thrillone{
+    
+    display: block;
+    position: relative;
+    float: left;
+    padding-left: 10%;
+    object-fit: contain;
+    width: 50%;
+
+}
+
+.Thrillone img {
+    width:80%;
+    
+}
+
+.Thrilltwo{
+    display: block;
+    position: relative;
+    float: right;
+    padding-right: 10%;
+    object-fit: contain;
+    width: 50%;
+    
+}
+
+.Thrilltwo img {
+    width:90%;
+    
+}
+
+
+
+
+.thrillblurb {
+
+    height: 30%;
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.thrillblurb p { 
+    font-size: 20px;
+
+}
+
+
+
+.thrillblurb2 {
+
+    font-size: 1em;
+    height: 300px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.thrillblurb2 h2 {
+    font-size: 40px;
+}
+
+
+.thrillCapitalvideos{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.video {
+    object-fit: cover;
+    position: absolute;
+}
+
+.thrillvid1 {
+    float: left;
+    padding-left: 150px;
+
+}
+
+.thrillvid2 {
+    float: right;
+    padding-right: 150px;
+}
+
+.Programs{
+    padding-top: 350px;
+    width: 100%;
+    display: block;
+}
+
+.Programs h1{
+    color: rgb(255, 255, 255);
+}

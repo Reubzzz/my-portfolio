@@ -1,0 +1,32 @@
+.Page2container{
+    width: 100vw;
+    height: 88vh;
+    object-fit: cover;
+    position: absolute;
+    margin: 0px;
+}
+
+.Hero1 {
+    z-index:1; 
+}
+
+.overlayMain{
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:80%;
+    z-index:2;
+}
+
+.overlayMain h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    
+
+}

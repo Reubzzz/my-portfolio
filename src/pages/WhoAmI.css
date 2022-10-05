@@ -1,0 +1,101 @@
+.WhoAmIMaincontainer{
+    width: 100vw;
+    height: 88vh;
+    position:absolute;
+    display: flex;
+    
+    color: White;
+    background-color: grey
+}
+
+
+.leftBar {
+    width: 500px;
+    height: 88vh;
+    background-color: rgb(3, 3, 3);
+    margin: 0;
+    float: left;
+}
+
+
+.overlayWhoAmI h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-align-last: justify;
+    position:absolute;
+    font-size: 55px;
+    padding-left: 6%;
+    background-color:rgb(2, 2, 2);
+}
+
+
+.Me {
+    width: 20vw;
+    height: 20vh;
+    padding-top: 25%;
+    padding-left: 15%;
+    object-fit: contain;
+    
+}
+
+.Me img {
+    width: 20vw;
+    height: 35vh;
+}
+
+.Blurb {
+    padding-top: 60%;
+    width: 30vw;
+    height: 25vh;
+}
+
+
+.Blurb h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+.Blurb p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.rightBar{
+    width: 40vw;
+    height: 80vh;
+    margin: 0;
+    float: right;
+}
+
+
+
+
+.WriteUpAboutMe{
+
+    width: 65vw;
+    height: 60vh;
+    padding-left:5%;
+    margin: 0;
+}
+
+.WriteUpAboutMe h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    padding-bottom:5%;
+    padding-top:5%;
+    color: black;
+}
+
+.WriteUpAboutMe p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 25px;
+    margin: 0;
+    color: black;
+}
