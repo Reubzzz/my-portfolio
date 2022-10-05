@@ -23,14 +23,6 @@ function App() {
             <div className="container">
 
 
-
-
-
-            {/* <Link to="/my-portfolio" element={<Home />} ></Link> */}
-
-
-
-            
                 <Routes>
                   <Route path ="/" element={<Home />} />
                   <Route path ="/Mainpage" element={<Mainpage />} />

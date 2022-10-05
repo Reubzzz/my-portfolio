@@ -22,7 +22,7 @@ export default function Navbar() {
     return ( 
     <nav className="nav">
 
-            <Link to="/my-portfolio" className= "site-title" onClick={refreshPage} >My Portfolio</Link>
+            <Link to="/" className= "site-title" onClick={refreshPage} >My Portfolio</Link>
         <ul>
             <CustomLink  to="/AboutMe" onClick={refreshPage} >About Me</CustomLink>
 
