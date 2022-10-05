@@ -10,6 +10,9 @@ import Blender from './pages/subpages/Blender';
 import Three from './pages/subpages/threeFile';
 import ThreeBitsandBobs from './pages/subpages/Threebitsandbobs';
 import {Route, Routes,} from "react-router-dom"
+import {HashRouter} from "react-router-dom"
+
+import { Link } from "react-router-dom";
 
 
 function App() {
@@ -20,16 +23,16 @@ function App() {
             <div className="container">
 
 
-              
 
 
 
+            {/* <Link to="/my-portfolio" element={<Home />} ></Link> */}
 
 
 
             
                 <Routes>
-                  <Route path ="/my-portfolio" element={<Home />} />
+                  <Route path ="/" element={<Home />} />
                   <Route path ="/Mainpage" element={<Mainpage />} />
                   <Route path ="/CV" element={<Cv />} />
                   <Route path ="/AboutMe" element={<About />} />
