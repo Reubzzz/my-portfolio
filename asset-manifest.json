@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.36d3855d.css",
-    "main.js": "/my-portfolio/static/js/main.f230b5ce.js",
+    "main.css": "/my-portfolio/static/css/main.9b43473a.css",
+    "main.js": "/my-portfolio/static/js/main.5585bf97.js",
     "static/media/Movement.mp4": "/my-portfolio/static/media/Movement.d4efc91782553c097a07.mp4",
     "static/media/Bot.mp4": "/my-portfolio/static/media/Bot.9068e8a2f80dcf4a5100.mp4",
+    "static/media/final.PNG": "/my-portfolio/static/media/final.74524516922248dc7133.PNG",
     "static/media/pointmesh.png": "/my-portfolio/static/media/pointmesh.cf26cb02115ce20bb80b.png",
     "static/media/CV.pdf": "/my-portfolio/static/media/CV.56bfc4289cd46fd8683c.pdf",
     "static/media/smoke.png": "/my-portfolio/static/media/smoke.6f7eb1aa9b9f657dbf5b.png",
@@ -14,11 +15,11 @@
     "static/media/vertex.glsl": "/my-portfolio/static/media/vertex.905745e9275c9770111b.glsl",
     "static/media/atmosphereFragment.glsl": "/my-portfolio/static/media/atmosphereFragment.d90fa0f11bb8a43b4764.glsl",
     "static/media/atmosphereVertex.glsl": "/my-portfolio/static/media/atmosphereVertex.606c0b5d54989e4ae950.glsl",
-    "main.36d3855d.css.map": "/my-portfolio/static/css/main.36d3855d.css.map",
-    "main.f230b5ce.js.map": "/my-portfolio/static/js/main.f230b5ce.js.map"
+    "main.9b43473a.css.map": "/my-portfolio/static/css/main.9b43473a.css.map",
+    "main.5585bf97.js.map": "/my-portfolio/static/js/main.5585bf97.js.map"
   },
   "entrypoints": [
-    "static/css/main.36d3855d.css",
-    "static/js/main.f230b5ce.js"
+    "static/css/main.9b43473a.css",
+    "static/js/main.5585bf97.js"
   ]
 }
