@@ -2,10 +2,6 @@ import "./ProjectThrill.css";
 import React from 'react';
 import Navbar from '../../componets/navbar'
 
-import droneview from "../../componets/Files/ThrillCapital/DroneviewShort.mp4";
-import driveview from "../../componets/Files/ThrillCapital/DrivableShort.mp4";
-
-
 
 
 export default function ProjectThrill(){
@@ -44,13 +40,14 @@ export default function ProjectThrill(){
                             
 
                        <div className="thrillCapitalvideos">
-                       <div className="thrillvid1">
-                                <video src={droneview} width="600" height="300" controls="controls" />
+                            <div className="ThrillFinal">
+                                <img src={require('../../componets/Files/ThrillCapital/final.PNG')} />
                             </div>
-                            
-                            <div className="thrillvid2">
-                                <video src={driveview} width="600" height="300" controls="controls"  />
-                            </div>
+                                    <div className="ThrillLink">
+                                            <a href="https://www.dropbox.com/sc/lj6btjm0x46prdh/AAD0GTFg9U3iSyUU63MEAkFZa">
+                                            <p>DropBox Final Videos</p>
+                                            </a>
+                                    </div>
 
                         </div>
 

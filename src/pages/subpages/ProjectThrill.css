@@ -91,6 +91,7 @@
     padding-top: 100px;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 50px;
     text-align: center;
     position: relative;
     
@@ -104,29 +105,40 @@
 
 
 .thrillCapitalvideos{
-    padding-left: 10px;
-    padding-right: 10px;
     width: 100%;
 }
 
-.video {
-    object-fit: cover;
-    position: absolute;
+
+.ThrillFinal {
+width: 100%;
+height:auto;
 }
 
-.thrillvid1 {
-    float: left;
-    padding-left: 150px;
+.ThrillFinal img {
 
+    width:70%;
+    padding-left:30%
+    
 }
 
-.thrillvid2 {
-    float: right;
-    padding-right: 150px;
+.ThrillLink{
+    padding-left: 44%;
 }
+
+.ThrillLink a {
+    background-color: #5e5e5e;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+
 
 .Programs{
-    padding-top: 350px;
+    padding-top: 50px;
     width: 100%;
     display: block;
     text-align: center;
