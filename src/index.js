@@ -24,10 +24,10 @@ root.render(
 
 <HashRouter>
  <Routes>
- <Route path="/" element={<App/>} />
- <Route path ="/Mainpage" element={<Mainpage />} />
- <Route path ="/CV" element={<Cv />} />
- <Route path ="/AboutMe" element={<About />} />
+          <Route path="/" element={<App/>} />
+          <Route path ="/Mainpage" element={<Mainpage />} />
+          <Route path ="/CV" element={<Cv />} />
+          <Route path ="/AboutMe" element={<About />} />
 
                   <Route path ="/ThrillCapital" element={<Thrillcapital />} />
                   <Route path ="/Engines" element={<Engines />} />

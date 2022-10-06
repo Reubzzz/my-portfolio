@@ -15,7 +15,7 @@ return (
 
     </div>
     
-        <div className="Unity Container">
+        <div className="UnityContainer">
             <div className = "Chessgame">
                 <video src={chessmove} width="600" height="300" controls="controls" />
             </div>

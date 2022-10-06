@@ -1,8 +1,9 @@
 import "./ProjectThrill.css";
 import React from 'react';
-
-
 import Navbar from '../../componets/navbar'
+
+import droneview from "../../componets/Files/ThrillCapital/DroneviewShort.mp4";
+import driveview from "../../componets/Files/ThrillCapital/DrivableShort.mp4";
 
 
 
@@ -37,12 +38,19 @@ export default function ProjectThrill(){
 
 
                                     <div className="thrillblurb2">
-                                        <h2> This is the completed project for our 10 week internship program
-                                        </h2>
+                                        <h1> This is the completed project for our 10 week internship program
+                                        </h1>
                                     </div>
                             
 
                        <div className="thrillCapitalvideos">
+                       <div className="thrillvid1">
+                                <video src={droneview} width="600" height="300" controls="controls" />
+                            </div>
+                            
+                            <div className="thrillvid2">
+                                <video src={driveview} width="600" height="300" controls="controls"  />
+                            </div>
 
                         </div>
 

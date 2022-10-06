@@ -17,7 +17,7 @@ function threebits(){
         <Navbar/>   
             <div className="Bitscontainer">
                 <h1>Bits and Bobs</h1>
-            <p>little creations mouse over them for effects</p>
+            <p>Little creations in ThreeJS mouse over them for effects</p>
 
                     <div className="BlobsFiles">
 

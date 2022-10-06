@@ -13,4 +13,25 @@
     font-size: 30px;
     margin : 0px;
     padding-top: 20px; 
+    text-align: center;
+    text-decoration: underline;
+}
+.Heading h1{
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.UnityContainer{
+    padding-top: 20px; 
+    width: 100%;
+    height: 25%;
+
+}
+.Chessgame{
+    padding-left: 32%;
+}
+
+.UnityContainer p {
+    padding-left: 27%;
 }
