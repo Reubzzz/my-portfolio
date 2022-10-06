@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.9b43473a.css",
-    "main.js": "/my-portfolio/static/js/main.5585bf97.js",
+    "main.js": "/my-portfolio/static/js/main.fe5690f3.js",
     "static/media/Movement.mp4": "/my-portfolio/static/media/Movement.d4efc91782553c097a07.mp4",
     "static/media/Bot.mp4": "/my-portfolio/static/media/Bot.9068e8a2f80dcf4a5100.mp4",
     "static/media/final.PNG": "/my-portfolio/static/media/final.74524516922248dc7133.PNG",
     "static/media/pointmesh.png": "/my-portfolio/static/media/pointmesh.cf26cb02115ce20bb80b.png",
-    "static/media/CV.pdf": "/my-portfolio/static/media/CV.56bfc4289cd46fd8683c.pdf",
+    "static/media/CV.pdf": "/my-portfolio/static/media/CV.7c5cd0c46822fe447ee4.pdf",
     "static/media/smoke.png": "/my-portfolio/static/media/smoke.6f7eb1aa9b9f657dbf5b.png",
     "static/media/PointCloud1.jpg": "/my-portfolio/static/media/PointCloud1.d8e2a1797a7484df1e46.jpg",
     "static/media/me.jpg": "/my-portfolio/static/media/me.8a11aef81d8f7dae30f3.jpg",
@@ -16,10 +16,10 @@
     "static/media/atmosphereFragment.glsl": "/my-portfolio/static/media/atmosphereFragment.d90fa0f11bb8a43b4764.glsl",
     "static/media/atmosphereVertex.glsl": "/my-portfolio/static/media/atmosphereVertex.606c0b5d54989e4ae950.glsl",
     "main.9b43473a.css.map": "/my-portfolio/static/css/main.9b43473a.css.map",
-    "main.5585bf97.js.map": "/my-portfolio/static/js/main.5585bf97.js.map"
+    "main.fe5690f3.js.map": "/my-portfolio/static/js/main.fe5690f3.js.map"
   },
   "entrypoints": [
     "static/css/main.9b43473a.css",
-    "static/js/main.5585bf97.js"
+    "static/js/main.fe5690f3.js"
   ]
 }
