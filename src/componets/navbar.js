@@ -37,36 +37,37 @@ export default function Navbar() {
                                 <label for="checkbox_toggle" className="hamburger">&#9776;</label>
                                 
                                 <div className="menu">
-                                    <li><CustomLink  to="/AboutMe" onClick={refreshPage} >About Me</CustomLink></li>
+                                
                                         
-                                        <li className="Projects">
-                                            <a href="">Projects</a>
+                                            <li className="Projects">
+                                                <p>Projects</p>
 
-                                                <ul className="dropdown">
-                                                    <div className="dropdown-content">
-                                                        
-
-                                                        <li><CustomLink  to="/ThrillCapital" onClick={refreshPage}>Thrill Capital</CustomLink></li>
-                                                        <li><CustomLink to="/Engines"onClick={refreshPage}>Unreal and Unity</CustomLink></li>
-                                                        <li><CustomLink to="/Blender"onClick={refreshPage}>Blender</CustomLink></li>
+                                                    <ul className="dropdown">
+                                                        <div className="dropdown-content">
                                                             
 
+                                                            <li><CustomLink  to="/ThrillCapital" onClick={refreshPage}>Thrill Capital</CustomLink></li>
+                                                            <li><CustomLink to="/Engines"onClick={refreshPage}>Unreal and Unity</CustomLink></li>
+                                                            <li><CustomLink to="/Blender"onClick={refreshPage}>Blender</CustomLink></li>
+                                                                
 
-                                                            <li className="ThreeProjects">
-                                                                <a href="">Three</a>
-                                                                    <ul className="dropdown2">
-                                                                        <div className="dropdown2-content">
-                                                                        
-                                                                            <li><CustomLink to="/Three"onClick={refreshPage}>ThreeProjects</CustomLink></li>
-                                                                            <li><CustomLink to="/ThreeBitsandBobs"onClick={refreshPage}>ThreeBits@Bobs</CustomLink></li>
-                                                                        </div>
-                                                                    </ul>
-                                                            </li>
-                                                    
-                                                    
-                                                    </div>
-                                                </ul>
-                                        </li>                                       
+
+                                                                <li className="ThreeProjects">
+                                                                    <p>Three</p>
+                                                                        <ul className="dropdown2">
+                                                                            <div className="dropdown2-content">
+                                                                            
+                                                                                <li><CustomLink to="/Three"onClick={refreshPage}>ThreeProjects</CustomLink></li>
+                                                                                <li><CustomLink to="/ThreeBitsandBobs"onClick={refreshPage}>ThreeBits@Bobs</CustomLink></li>
+                                                                            </div>
+                                                                        </ul>
+                                                                </li>
+                                                        
+                                                        
+                                                        </div>
+                                                    </ul>
+                                            </li>
+                                        <li><CustomLink  to="/AboutMe" onClick={refreshPage} >About Me</CustomLink></li>                                       
                                     <li><CustomLink to="/CV" onClick={refreshPage}>My CV</CustomLink></li>
                                 
                                 </div>

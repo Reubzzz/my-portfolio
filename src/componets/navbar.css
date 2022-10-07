@@ -79,7 +79,8 @@
   position: absolute; /*WITH RESPECT TO PARENT*/
   display: none;
   border-radius: 8px;
-  top: 35px;
+  top: 80%;
+  
  } 
  
  .Projects:hover .dropdown {
@@ -93,7 +94,6 @@
 
  .dropdown-content li {
   padding: 0.5em 1em;
-  
   text-align: left;
  }
 
@@ -127,13 +127,6 @@
 
 
 
-
-
-
-
-
-
-
 .ThreeProjects {
   position: relative; 
  }
@@ -144,11 +137,13 @@
   position: absolute; /*WITH RESPECT TO PARENT*/
   display: none;
   border-radius: 8px;
-  top: 35px;
+  top: 80%;
+  
  } 
  
  .ThreeProjects:hover .dropdown2 {
   display: block;
+  
  }
 
 
@@ -157,12 +152,12 @@
  }
  .dropdown2-content li {
   padding: 0.5em 1em;
-  width: 8em;
-  text-align: center;
+  width: 10em;
+  text-align: left;
+  
+
  }
- /* .dropdown2-content li:hover {
-  background-color: #656767;
- } */
+
 
  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown2:hover .dropdown2-content {
@@ -177,6 +172,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  
 }
 
 /* Style the links inside the dropdown */
@@ -187,6 +183,7 @@
   text-decoration: none;
   display: block;
   text-align: left;
+  
 }
 
 
