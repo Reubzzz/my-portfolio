@@ -14,7 +14,7 @@
 }
 
 .overlayMain{
-    padding-top:40%;
+    bottom:20%;
     margin: 0px;
     width: 100vw;
     height: 20vh;
@@ -27,7 +27,7 @@
 
 .overlayMain h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 5vw;
+    font-size: 8vw;
     color: rgb(255, 255, 255);
     margin: 0px;
     text-align: center;

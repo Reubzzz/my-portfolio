@@ -15,6 +15,7 @@
     z-index:1; 
     width: 100vw;
     height: 85vh;
+    position: absolute;
 }
 
 
@@ -29,16 +30,17 @@
     justify-content: center;
     top:8%;
     z-index:2;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 2%;
+
     
     
     
 }
 
 .overlayhome h1 {
+    width: 100vw;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 5vw;
+    font-size: 8vw;
     color: rgb(255, 255, 255);
     margin: 0px;
     
@@ -47,8 +49,9 @@
 
 
 .ButtonContainer{
-    padding-top:80%;
     position:absolute;
+    bottom: 10%;
+    padding-left:28%;
 }
 
 
@@ -57,7 +60,6 @@
     margin: 0px;
     width: auto;
     height: auto;
-    padding-left:1vw;
 
 }
 

@@ -6,9 +6,10 @@ import Navbar from '../componets/navbar'
 export default function CV(){
     
     return(
-
-    <div className="PageCV">  
+ <>
     <Navbar/>
+    <div className="PageCV">  
+    
         <div className='Title'>
             <h1>My Resume</h1>
         </div>
@@ -22,5 +23,6 @@ export default function CV(){
 
 
     </div>  
+</>
     )
 }

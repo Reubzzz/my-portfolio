@@ -18,7 +18,7 @@ function Mainpage(){
 
             <div className="Hero1">
                     <Hero/>    
-                    
+              </div>       
                     <div className ="overlayMain">
 
                             <h1>Reuben Jaggers Portfolio </h1>  
@@ -27,7 +27,7 @@ function Mainpage(){
                            
 
 
-            </div>            
+                       
                 
          </div>
        </>
