@@ -17,16 +17,15 @@ function WhoAmI(){
          
          <div className="WhoAmIMaincontainer">
            
-                <div className='container'>
 
                     <div className='leftBar'>
 
                             <div className ="overlayWhoAmI">
-                                            <h1>Who I Am ? </h1>
+                                <h1>Who I Am ? </h1>
 
-                                            <div className='Me'>
-                                                <img src={require('../componets/Files/me.jpg')} />
-                                            </div>
+                                 <div className='Me'>
+                                     <img src={require('../componets/Files/me.jpg')} />
+                                </div>
 
                             </div>
 
@@ -84,12 +83,6 @@ function WhoAmI(){
 
                                 </div>
                         </div>
-                   
-
-                          
-
-
-                </div>
 
                 
             

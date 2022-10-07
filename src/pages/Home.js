@@ -28,15 +28,15 @@ function Home(){
 
                                 <h1>WELCOME TO MY PAGE </h1>  
 
-                                
+                        <div className ="ButtonContainer">
+                            <div className = "BUTTON">
+                                <Button/>
+
+                            </div>
+                        </div>
   
                             </div>
-                <div className ="ButtonContainer">
-                    <div className = "BUTTON">
-                    <Button/>
 
-                    </div>
-                </div>
 
                 
 

@@ -6,31 +6,28 @@ import Navbar from '../../componets/navbar'
 export default function UnityUnreal() {
 
 return (
-<div className="Enginescontainer">
-<Navbar/>
+    <>
+ <Navbar/>   
+        <div className="Enginescontainer">
 
-    <div className="Heading">
+            <h1>Unity Projects </h1>
+            
+                <div className="UnityContainer">
+                    <div className = "Chessgame">
+                        <video src={chessmove} controls="controls" />
+                    </div>
+                    <p>This is a basic chessboard set up with the actual moves of each piece added in. This was written in C# and the unity engine. </p>
+                </div>
 
-        <h1>Unity Projects </h1>
 
-    </div>
-    
-        <div className="UnityContainer">
-            <div className = "Chessgame">
-                <video src={chessmove} width="600" height="300" controls="controls" />
-            </div>
-            <p>This is a basic chessboard set up with the actual moves of each piece added in. This was written in C# and the unity engine. </p>
+
+
+
+
+
+
+
         </div>
-
-
-
-
-
-
-
-
-
-</div>
-
+</>
 )
 }

@@ -11,9 +11,9 @@ function Mainpage(){
 
     return(
         <>
-        <Navbar/>
+        
          <div className="Page2container">
-
+            <Navbar/>
          
 
             <div className="Hero1">

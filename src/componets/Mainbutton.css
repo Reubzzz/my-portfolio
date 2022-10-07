@@ -6,12 +6,11 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 200%;
-    margin: 4px 2px;
+    font-size: 3vw;
     cursor: pointer;
 
-    width: 200%;
-    height: 200%;
+    width: 40vw;
+    height: auto;
   }
 
 

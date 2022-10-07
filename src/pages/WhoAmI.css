@@ -1,101 +1,113 @@
 .WhoAmIMaincontainer{
-    width: 100vw;
-    height: 88vh;
+    width: 100%;
+    height: auto;
     position:absolute;
     display: flex;
-    
     color: White;
     background-color: grey
 }
 
 
-.leftBar {
-    width: 500px;
-    height: 88vh;
-    background-color: rgb(3, 3, 3);
-    margin: 0;
-    float: left;
-}
+                    .leftBar {
+                        width: 50%;
+                        height: 85vh;
+                        /* position:absolute; */
+                        background-color: rgb(3, 3, 3);
+                        margin: 0;
+                        float: left;
+                    }
 
 
-.overlayWhoAmI h1 {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    text-align-last: justify;
-    position:absolute;
-    font-size: 55px;
-    padding-left: 6%;
-    background-color:rgb(2, 2, 2);
-}
+                    .overlayWhoAmI{
+                    width: 100%;
+                    height: 100%;
+                    position:absolute;
+                    }
 
 
-.Me {
-    width: 20vw;
-    height: 20vh;
-    padding-top: 25%;
-    padding-left: 15%;
-    object-fit: contain;
-    
-}
-
-.Me img {
-    width: 20vw;
-    height: 35vh;
-}
-
-.Blurb {
-    padding-top: 60%;
-    width: 30vw;
-    height: 25vh;
-}
+                    .overlayWhoAmI h1 {
+                        font-family: 'Times New Roman', Times, serif;
+                        text-align: center;
+                        text-align-last: justify;
+                        position:absolute;
+                        font-size: 6vw;
+                        padding-left: 6%;
+                        background-color:rgb(2, 2, 2);
+                    }
 
 
-.Blurb h2{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 45px;
-}
+                    .Me {
+                        padding-top: 7%;
+                        padding-left: 11%;
+                        object-fit: contain;
+                        position:absolute;
+                        
+                    }
 
-.Blurb p{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 25px;
-}
+                    .Me img {
+                        position:absolute;
+                        width: 20vw;
+                        height: auto;
+                    }
+
+                    .Blurb {
+                        position:absolute;
+                        padding-top: 30%;
+                        padding-right: 8%;
+                        width: 50%;
+                        height: auto;
+                    }
+
+
+                    .Blurb h2{
+                        font-family: 'Times New Roman', Times, serif;
+                        text-align: center;
+                        font-size: 3vw;
+                    }
+
+                    .Blurb p{
+                        font-family: 'Times New Roman', Times, serif;
+                        text-align: center;
+                        font-size: 2vw;
+                    }
 
 
 
-.rightBar{
-    width: 40vw;
-    height: 80vh;
-    margin: 0;
-    float: right;
-}
+                                                                        .rightBar{
+                                                                            width: 50%;
+                                                                            height: 85vh;
+                                                                            margin: 0;
+                                                                            float: right;
+                                                                            /* position:absolute; */
+                                                                        }
 
 
 
 
-.WriteUpAboutMe{
+                                                                        .WriteUpAboutMe{
 
-    width: 65vw;
-    height: 60vh;
-    padding-left:5%;
-    margin: 0;
-}
+                                                                            width: 50vw;
+                                                                            height: auto;
+                                                                            margin: 0;
+                                                                            position:absolute;
+                                                                            padding-left: 2%;
+                                                                            padding-right: 2%;
+                                                                        }
 
-.WriteUpAboutMe h2 {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 50px;
-    margin: 20px;
-    padding-bottom:5%;
-    padding-top:5%;
-    color: black;
-}
+                                                                        .WriteUpAboutMe h2 {
+                                                                            font-family: 'Times New Roman', Times, serif;
+                                                                            text-align: center;
+                                                                            font-size: 4vw;
+                                                                            margin: 20px;
+                                                                            /* padding-bottom:5%;
+                                                                            padding-top:5%; */
+                                                                            color: black;
+                                                                        }
 
-.WriteUpAboutMe p {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    font-size: 25px;
-    margin: 0;
-    color: black;
-}
+                                                                        .WriteUpAboutMe p {
+                                                                            font-family: 'Times New Roman', Times, serif;
+                                                                            text-align: left;
+                                                                            font-size: 1.3vw;
+                                                                            margin: 0;
+                                                                            color: black;
+                                                                        }

@@ -6,9 +6,9 @@ import Navbar from '../../componets/navbar'
 
 export default function ProjectThrill(){
     return(
-        <div className="projectcontainer">
+        <>
             <Navbar/>
-
+        <div className="projectcontainer">
             <div className="subbarcontainer">
                         <div className="ThrillTitle">
                             <h1>Thrill Capital</h1>
@@ -40,6 +40,7 @@ export default function ProjectThrill(){
                             
 
                        <div className="thrillCapitalvideos">
+
                             <div className="ThrillFinal">
                                 <img src={require('../../componets/Files/ThrillCapital/final.PNG')} />
                             </div>
@@ -54,8 +55,8 @@ export default function ProjectThrill(){
                         <div className="Programs">
                                 <h1>My Program</h1>
                                 <h2>This is my Translator for Pointcloud to Mesh</h2>
+
                             <div className='Git'>
-                                
                                 <p>https://github.com/Reubzzz/Translator.git</p>
                             </div>
                         
@@ -66,7 +67,7 @@ export default function ProjectThrill(){
                 </div>          
         </div>
                                  
-    
+    </> 
     
     ) 
 }
