@@ -19,24 +19,29 @@ function Home(){
         
          <div className="Homescreencontainer">
                 <div className="Hero">
+                    
                     <Hero2/>     
                         
 
-                            <div className ="overlayhome">
+                </div>      
+                      <div className ="overlayhome">
 
                                 <h1>WELCOME TO MY PAGE </h1>  
 
                                 
   
                             </div>
-
-                <div className = "BUTTON">
+                <div className ="ButtonContainer">
+                    <div className = "BUTTON">
                     <Button/>
 
+                    </div>
                 </div>
 
+                
+
                         
-                </div>
+                
          </div>
        </>
     )

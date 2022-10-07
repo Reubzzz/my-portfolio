@@ -5,12 +5,16 @@ import gsap from 'gsap'
 import Smoke from '../img/smoke.png';
 
 
+
 function Hero2() {
 
 
 
 
   useEffect(() => {
+
+
+
 
     var  portalParticles = [],
           smokeParticles = [] ;
@@ -25,13 +29,13 @@ function Hero2() {
     );
     camera.position.z = 605;
 
-    const canvas = document.getElementById('myCloudjannit');
+    const canvas = document.getElementById('Hero2');
     const renderer = new THREE.WebGLRenderer({
       canvas,
       antialias: true,
     });
     renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(renderer.domElement);
+    // document.body.appendChild(renderer.domElement);
 
 
 
@@ -197,7 +201,7 @@ function Hero2() {
 
   return (
     <div>
-      <canvas id="myCloudjannit" />
+      <canvas id="Hero2" />
       
     </div>
   )

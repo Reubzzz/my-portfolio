@@ -26,15 +26,15 @@ export default function ProjectThrill(){
                             </div>
 
                                     <div className="thrillblurb">
-                                        <p> While doing my Intership for Thrill Capital I was approched to create an driver distraction program, where i would have to take Pointcloud data and turn
-                                            into a solid mesh for the Unity engine to allow a virtual car to drive around on 
+                                        <p> While doing my Intership for Thrill Capital I was approached to create an driver distraction program, where I would have to take Pointcloud data and turn
+                                            into a solid mesh for the Unity engine to allow a virtual car to drive around on. 
                                         </p>
                                     </div>
 
 
 
                                     <div className="thrillblurb2">
-                                        <h1> This is the completed project for our 10 week internship program
+                                        <h1> This is the completed project for our 10 week internship program.
                                         </h1>
                                     </div>
                             
@@ -53,7 +53,7 @@ export default function ProjectThrill(){
 
                         <div className="Programs">
                                 <h1>My Program</h1>
-                                <h2>This is my Translator for pointcloud to Mesh</h2>
+                                <h2>This is my Translator for Pointcloud to Mesh</h2>
                             <div className='Git'>
                                 
                                 <p>https://github.com/Reubzzz/Translator.git</p>

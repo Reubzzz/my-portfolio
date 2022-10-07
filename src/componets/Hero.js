@@ -23,7 +23,7 @@ function Hero() {
 
     const camera = new THREE.PerspectiveCamera(
       75,
-      window.innerWidth / 828,
+      window.innerWidth /  window.innerHeight,
       0.1,
       2000
     );
@@ -34,13 +34,13 @@ function Hero() {
     camera.rotation.y = -0.12;
     camera.rotation.z = 0.27;
 
-    const canvas = document.getElementById('myCloudjannit');
+    const canvas = document.getElementById('Hero');
 
     const renderer = new THREE.WebGLRenderer({
       canvas,
       antialias: true,
     });
-    renderer.setSize(window.innerWidth, 828);
+    renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
 
     //Light
@@ -207,7 +207,7 @@ const Size = 500;
 
   return (
     <div>
-      <canvas id="myCloudjannit" />
+      <canvas id="Hero" />
       
     </div>
   )
