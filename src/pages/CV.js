@@ -3,6 +3,11 @@ import "./CV.css";
 
 import Navbar from '../componets/navbar'
 
+
+
+
+
+
 export default function CV(){
     
     return(
@@ -15,7 +20,7 @@ export default function CV(){
         </div>
 
         <div className="PDF">
-        <embed src= {Pdf} width="800px" height="780px" />
+        <embed id ='resume' src= {Pdf}/>
         </div>
 
 
