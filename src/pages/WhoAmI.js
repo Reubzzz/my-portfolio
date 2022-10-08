@@ -25,11 +25,9 @@ function WhoAmI(){
 
                                  <div className='Me'>
                                      <img src={require('../componets/Files/me.jpg')} />
-                                </div>
-
-                            
-
-                                    <div className = "Blurb">
+                                     
+                                     
+                                     <div className = "Blurb">
                                         
                                         <h2>Reuben Jagger</h2>
 
@@ -38,6 +36,9 @@ function WhoAmI(){
                                         <p>Front-End / Game-Developer</p>
                                                     
                                     </div>
+                                
+                                </div>
+
                             </div>
                     </div>
 

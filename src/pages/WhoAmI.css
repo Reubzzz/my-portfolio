@@ -1,6 +1,6 @@
 .WhoAmIMaincontainer{
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     position:relative;
     display: flex;
     color: White;
@@ -10,7 +10,7 @@
 
                     .leftBar {
                         width: 30%;
-                        height: 85vh;
+                        height: 100vh;
                         position:relative;
                         background-color: rgb(3, 3, 3);
                         margin: 0;
@@ -19,8 +19,8 @@
 
 
                     .overlayWhoAmI{
-                    width: 100%;
-                    height: 100%;
+                    width: 30vw;
+                    height: 100vh;
                     position:relative;
                     }
 
@@ -32,13 +32,13 @@
                         position:absolute;
                         font-size: 4vw;
                         left: 5vw;
-                        top: 1vw;
+                        top: 5%;
                         background-color:rgb(2, 2, 2);
                     }
 
 
                     .Me {
-                        top: 6vw;
+                        top: 12%;
                         left: 2vw;
                         width: 40vw;
                         height: auto;
@@ -56,22 +56,21 @@
                     .Blurb {
                         position:absolute;
                         top: 32vw;
-                        left: 1vw;
-                        width: auto;
-                        height: auto;
+                        
                     }
 
 
                     .Blurb h2{
                         font-family: 'Times New Roman', Times, serif;
                         text-align: center;
-                        font-size: 5vw;
+                        font-size: 4vw;
                     }
 
                     .Blurb p{
+                        padding-top: 5%;
                         font-family: 'Times New Roman', Times, serif;
                         text-align: center;
-                        font-size: 3vw;
+                        font-size: 2vw;
                     }
 
 
@@ -110,7 +109,7 @@
                                                                         .WriteUpAboutMe p {
                                                                             font-family: 'Times New Roman', Times, serif;
                                                                             text-align: center;
-                                                                            font-size: 1.2vw;
+                                                                            font-size: 1.5vw;
                                                                             margin: 0;
                                                                             color: black;
                                                                         }
