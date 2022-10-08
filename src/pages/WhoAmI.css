@@ -9,7 +9,7 @@
 
 
                     .leftBar {
-                        width: 50%;
+                        width: 30%;
                         height: 85vh;
                         position:relative;
                         background-color: rgb(3, 3, 3);
@@ -31,7 +31,7 @@
                         text-align-last: justify;
                         position:absolute;
                         font-size: 4vw;
-                        left: 14vw;
+                        left: 5vw;
                         top: 1vw;
                         background-color:rgb(2, 2, 2);
                     }
@@ -39,7 +39,7 @@
 
                     .Me {
                         top: 6vw;
-                        left: 12vw;
+                        left: 2vw;
                         width: 40vw;
                         height: auto;
                         object-fit: contain;
@@ -56,7 +56,7 @@
                     .Blurb {
                         position:absolute;
                         top: 32vw;
-                        left: 7vw;
+                        left: 1vw;
                         width: auto;
                         height: auto;
                     }
@@ -77,7 +77,7 @@
 
 
                                                                         .rightBar{
-                                                                            width: 50%;
+                                                                            width: 70%;
                                                                             height: auto;
                                                                             margin: 0;
                                                                             float: right;
