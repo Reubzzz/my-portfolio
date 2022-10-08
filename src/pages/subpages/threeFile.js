@@ -11,53 +11,94 @@ import Nebular from '../../componets/Files/Three/Nebular'
 
 import CrazyGlobe from '../../componets/Files/Three/Sun'
 
-import Blob from '../../componets/Files/Three/Blob'
 
-import SlideShow from '../../componets/Files/Three/Slideshow'
 function threeFile(){
 
 
     return(
 
-        <>   <Navbar/>   
+        <>
+           <Navbar/>   
             <div className="worldcontainer">
             
+                        <div className="portalcontainer">
+                                <div className="Portal">
+                                    <Portal/>                        
+                                </div>
 
-                    <div className="ThreeFiles">
-                        <h1>ThreeJS Projects</h1>
+                                        <div className="Titleoverlay">
+                                            <h1>ThreeJS Projects</h1>
+                                        </div>
+
+                                        <div className="LabelPortal">
+                                            <h1>Portal</h1>
+                                        </div>
+
+                        </div> 
+
+
+
+
+
+
+                        <div className="Raincontainer">
+
+                                <div className="Rain">
+                                <RainCloud/>                        
+                                </div>
+
+                                        <div className="LabelRain">
+                                            <h1>Rain</h1>
+                                        </div>
+
+                        </div>   
+
+
+
+
 
                         
-
-                                <div className="Portal">
-                                    <Portal/>
-
-                                    <h1>Portal Project</h1>
-                                    
-                                </div>
-
-                                <div className="Raincloud">
-
-                                    <RainCloud/>
-
-                                    <h1>RainCloud Project</h1>
-
-                            
-                                </div>
+                        <div className="Nebularcontainer">
 
                                 <div className="Nebular">
-
-                                    <Nebular/>
-                                    <h1>Nebular Project</h1>
+                                <Nebular/>                        
                                 </div>
+
+                                        <div className="LabelNebular">
+                                            <h1>Nebular</h1>
+                                        </div>
+
+                        </div>   
+
+
+                        <div className="CrazyGlobecontainer">
+
+                                <div className="CrazyGlobe">
+                                <CrazyGlobe/>                        
+                                </div>
+
+                                        <div className="LabelCrazyGlobe">
+                                            <h1>CrazyGlobe</h1>
+                                        </div>
+
+                        </div>   
+
+
+
+
+
+
+{/* 
+                        
                                     
                                 <div className="CrazyGlobe">
 
                                     <CrazyGlobe/>
                                     <h1>Interactive Globe Project</h1>
-                                </div>
+                                </div>  */}
 
 
-                    </div>
+                    
           
             </div>
         </>  

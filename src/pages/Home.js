@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero2 from '../componets/Hero2'
+import OpenHero from '../componets/Hero2'
 
 import Button from '../componets/Mainbutton'
 
@@ -20,24 +20,17 @@ function Home(){
          <div className="Homescreencontainer">
                 <div className="Hero">
                     
-                    <Hero2/>     
-                        
-
+                    <OpenHero/>     
                 </div>      
-                      <div className ="overlayhome">
-
+                            <div className ="overlayhome">
                                 <h1>WELCOME TO MY PAGE </h1>  
-
-
-  
                             </div>
 
                             <div className ="ButtonContainer">
-                            <div className = "BUTTON">
+                                <div className = "BUTTON">
                                 <Button/>
-
+                                </div>
                             </div>
-                        </div>
 
 
                 

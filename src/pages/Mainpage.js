@@ -11,11 +11,10 @@ function Mainpage(){
 
     return(
         <>
-        
-         <div className="Page2container">
-            <Navbar/>
-         
+        <Navbar/>
 
+         <div className="Page2container">
+            
             <div className="Hero1">
                     <Hero/>    
               </div>       

@@ -37,6 +37,8 @@ export default function Navbar() {
                                 <label for="checkbox_toggle" className="hamburger">&#9776;</label>
                                 
                                 <div className="menu">
+                                <li><CustomLink  to="/AboutMe" onClick={refreshPage} >About Me</CustomLink></li>                                       
+                                    <li><CustomLink to="/CV" onClick={refreshPage}>My CV</CustomLink></li>
                                 
                                         
                                             <li className="Projects">
@@ -67,8 +69,7 @@ export default function Navbar() {
                                                         </div>
                                                     </ul>
                                             </li>
-                                        <li><CustomLink  to="/AboutMe" onClick={refreshPage} >About Me</CustomLink></li>                                       
-                                    <li><CustomLink to="/CV" onClick={refreshPage}>My CV</CustomLink></li>
+
                                 
                                 </div>
                             </ul>

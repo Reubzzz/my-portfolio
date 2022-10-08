@@ -11,12 +11,14 @@
     margin: 0px;
 }
 
-.Hero1 {
-    z-index:1; 
+.Hero {
+    position:absolute;
     width: 100vw;
-    height: 85vh;
-    position: absolute;
+    height: 100vh;
+    z-index: 1;
 }
+
+
 
 
 
@@ -30,7 +32,7 @@
     justify-content: center;
     top:8%;
     z-index:2;
-    padding-left: 2%;
+    padding-left: 13%;
 
     
     
@@ -38,9 +40,8 @@
 }
 
 .overlayhome h1 {
-    width: 100vw;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 8vw;
+    font-size: 6vw;
     color: rgb(255, 255, 255);
     margin: 0px;
     
@@ -51,7 +52,8 @@
 .ButtonContainer{
     position:absolute;
     bottom: 10%;
-    padding-left:28%;
+    left: 30%;
+    z-index:2;
 }
 
 
@@ -63,3 +65,7 @@
 
 }
 
+#Hero2{
+    width: 100vw !important;
+    height: 100vh !important;
+}

@@ -126,7 +126,7 @@ function CrazyGlobe() {
               renderer.setSize(window.innerWidth , window.innerHeight,
                 )
               renderer.setPixelRatio(devicePixelRatio)
-              document.body.appendChild(renderer.domElement)
+              // document.body.appendChild(renderer.domElement)
       
               // new OrbitControls(camera, renderer.domElement);
               camera.position.z = 105

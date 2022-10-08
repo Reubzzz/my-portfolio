@@ -17,18 +17,14 @@ function threebits(){
         <Navbar/>   
             <div className="Bitscontainer">
                 <h1>Bits and Bobs</h1>
-            <p>Little creations in ThreeJS mouse over them for effects</p>
+            <p>Little creation in ThreeJS mouse over them for effects</p>
 
                     <div className="BlobsFiles">
-
-                            <Blob/>
-
+                        <div className="Blobcontainer">
+                        <Blob/>
+                        </div>     
                     </div>
-                            <div className="PaperFiles">
-
-                            <Paper/>
-
-                            </div>
+   
           
             </div>
         </>  

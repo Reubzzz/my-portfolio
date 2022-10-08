@@ -35,14 +35,14 @@ function Hero() {
     camera.rotation.y = -0.12;
     camera.rotation.z = 0.27;
 
-    const canvas = document.getElementById('rainCloud');
+    const canvas = document.getElementById('Rain');
 
     const renderer = new THREE.WebGLRenderer({
       canvas,
       antialias: true,
     });
     renderer.setSize(window.innerWidth , window.innerHeight);
-    document.body.appendChild(renderer.domElement);
+    // document.body.appendChild(renderer.domElement);
 
     //Light
 
@@ -208,7 +208,7 @@ const Size = 500;
 
   return (
     <div>
-      <canvas id="rainCloud"/>
+      <canvas id="Rain"/>
       
     </div>
   )

@@ -39,6 +39,7 @@ const Blob = () => {
       scale={2}
       onPointerOver={() => (hover.current = true)}
       onPointerOut={() => (hover.current = false)}
+      
     >
       <icosahedronGeometry args={[2, 20]} />
       <shaderMaterial
@@ -53,7 +54,7 @@ const Blob = () => {
 
 const Scene = () => {
   return (
-    <Canvas camera={{ position: [0.0, 0.0, 8.0] }}>
+    <Canvas  camera={{ position: [0.0, 0.0, 8.0] }}>
       <Blob />
     </Canvas>
   );

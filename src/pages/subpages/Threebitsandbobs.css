@@ -1,9 +1,8 @@
 .Bitscontainer{
     width: 100vw;
-    height: 89vh;
-    position:absolute;
+    height: 100vh;
+    position:relative;
     margin: 0px;
-    padding-top: 5%;
     background-color:black
 }
 
@@ -30,16 +29,23 @@
 
 
 .BlobsFiles{
-    position:relative;
-    width: 50vw;
-    height: 50vh;
-    float:left;
+position:absolute;
+width: 100vw;
+height: 100vh;
+/* left: 25%; */
     
 }
-
-.PaperFiles{
-    position:relative;
-    width: 50vw;
+.Blobcontainer{
+    position:absolute;
+    width: 100vw;
     height: 50vh;
-    float:right;
 }
+
+
+
+
+
+
+
+
+
