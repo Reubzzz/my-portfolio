@@ -19,9 +19,9 @@
 
 
                     .overlayWhoAmI{
-                    width: 30vw;
+                    width: 25vw;
                     height: 100vh;
-                    position:relative;
+                    position:absolute;
                     }
 
 
@@ -31,7 +31,7 @@
                         text-align-last: justify;
                         position:absolute;
                         font-size: 4vw;
-                        left: 5vw;
+                        left: 4vw;
                         top: 5%;
                         background-color:rgb(2, 2, 2);
                     }
