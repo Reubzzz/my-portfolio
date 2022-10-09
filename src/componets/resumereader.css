@@ -20,6 +20,10 @@
     margin-bottom: 25px;
 }
 
+.PDFPageTwo {
+    margin-bottom: 25px;
+}
+
 .PDFPage > canvas {
     max-width: 100%;
     height: auto !important;
