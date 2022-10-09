@@ -1,31 +1,29 @@
 /* CV PAGE */
 
-.PageCV {
+.main-container {
     text-align: center;
     background-color: rgb(68, 66, 66);
     color: #fff;
     width: 100vw;
-    height: 85vh;
-    display: static;
+    height: 300vh;
+    /* display: static; */
     position: relative;
 }
 
 .Title {
-    font-size: 2rem;
+    width: auto;
+    height: auto;
+    padding-top: 2%;
 }
 .Title h1{
     margin : 0px;
+    font-size: 4vw;
 }
 
 
-.PDF {
+.PDFcontainer {
     position:absolute;
-
-}
-
+    top:5%;
 
 
-#resume {
-width: 100vw;
-height: 75vh;
 }
