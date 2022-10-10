@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c1e706a7.css",
+    "main.css": "/my-portfolio/static/css/main.333e11c4.css",
     "main.js": "/my-portfolio/static/js/main.a2410b13.js",
     "static/media/Movement.mp4": "/my-portfolio/static/media/Movement.d4efc91782553c097a07.mp4",
     "pdf.worker.js": "/my-portfolio/e7e915313973ba1d49f9bb2a1998626e.js",
@@ -16,11 +16,11 @@
     "static/media/vertex.glsl": "/my-portfolio/static/media/vertex.905745e9275c9770111b.glsl",
     "static/media/atmosphereFragment.glsl": "/my-portfolio/static/media/atmosphereFragment.d90fa0f11bb8a43b4764.glsl",
     "static/media/atmosphereVertex.glsl": "/my-portfolio/static/media/atmosphereVertex.606c0b5d54989e4ae950.glsl",
-    "main.c1e706a7.css.map": "/my-portfolio/static/css/main.c1e706a7.css.map",
+    "main.333e11c4.css.map": "/my-portfolio/static/css/main.333e11c4.css.map",
     "main.a2410b13.js.map": "/my-portfolio/static/js/main.a2410b13.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1e706a7.css",
+    "static/css/main.333e11c4.css",
     "static/js/main.a2410b13.js"
   ]
 }
