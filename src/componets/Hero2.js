@@ -25,9 +25,11 @@ function Hero2() {
       75,
       window.innerWidth / window.innerHeight,
       0.1,
-      2000
+      //2000
+      1000
     );
-    camera.position.z = 605;
+    //camera.position.z =605;
+    camera.position.z = 705;
 
     const canvas = document.getElementById('Hero2');
     const renderer = new THREE.WebGLRenderer({
@@ -80,7 +82,7 @@ function Hero2() {
               map:texture,
               transparent: true
           });
-
+            //for(let p=880;p>250;p--)
           for(let p=880;p>250;p--) {
               let particle = new THREE.Mesh(portalGeo,portalMaterial);
               particle.position.set(
@@ -92,7 +94,7 @@ function Hero2() {
               portalParticles.push(particle);
               scene.add(particle);
           }
-
+            //for(let p=0;p<40;p++)
           for(let p=0;p<40;p++) {
               let particle = new THREE.Mesh(smokeGeo,smokeMaterial);
               particle.position.set(
@@ -113,48 +115,6 @@ function Hero2() {
 
 
   }
-
-
-
-
-
-// //BUTTON 
-
-// let clicked = 1
-// const tl = gsap.timeline();
-// const durations = 1.0
-// const ease = 'none';
-// let animationisDone = false;
-
-// document.getElementById("nextPlace").addEventListener("click", nextPlace, false);
-
-
-// function nextPlace() {
-
-//     if(!animationisDone){
-//         animationisDone = true
-
-//       if  (clicked = 1) 
-//       {
-//             tl.to(camera.position, {
-//               z:20,
-//               durations,
-//               ease,
-//               onUpdate: function() {
-//                 // camera.lookat(0,0,0);
-//               }
-//             })
-
-//       }
-
-//     }
-// }
-
-
-
-
-
-
 
 
 
