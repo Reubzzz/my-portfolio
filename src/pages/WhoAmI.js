@@ -7,8 +7,6 @@ import Navbar from '../componets/navbar'
 
 
 
-//  c.clearRect ( );
-
 function WhoAmI(){
     return(
         <>

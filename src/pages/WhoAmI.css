@@ -9,7 +9,7 @@
 
 
                     .leftBar {
-                        width: 30%;
+                        width: 40%;
                         height: 100vh;
                         position:relative;
                         background-color: rgb(3, 3, 3);
@@ -19,7 +19,8 @@
 
 
                     .overlayWhoAmI{
-                    width: 25vw;
+                    padding: 10%;
+                    width: 100%;
                     height: 100vh;
                     position:absolute;
                     }
@@ -31,15 +32,16 @@
                         text-align-last: justify;
                         position:absolute;
                         font-size: 4vw;
-                        left: 4vw;
+                        padding-left: 8%;
                         top: 5%;
+                        padding-bottom: 5%;
                         background-color:rgb(2, 2, 2);
                     }
 
 
                     .Me {
-                        top: 12%;
-                        left: 2vw;
+                        top: 15%;
+                        left: 5vw;
                         width: 40vw;
                         height: auto;
                         object-fit: contain;
@@ -76,7 +78,7 @@
 
 
                                                                         .rightBar{
-                                                                            width: 70%;
+                                                                            width: 60%;
                                                                             height: auto;
                                                                             margin: 0;
                                                                             float: right;

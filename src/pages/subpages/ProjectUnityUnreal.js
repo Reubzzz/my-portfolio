@@ -7,25 +7,36 @@ export default function UnityUnreal() {
 
 return (
     <>
- <Navbar/>   
+ <Navbar/> 
+
         <div className="Enginescontainer">
 
-            <h1>Unity Projects </h1>
-            
+
                 <div className="UnityContainer">
-                    <div className = "Chessgame">
-                        <video src={chessmove} controls="controls" />
-                    </div>
-                    <p>This is a basic chessboard set up with the actual moves of each piece added in. This was written in C# and the unity engine. </p>
+
+                            <div className="UnityTitle">
+                            <h1>Unity Projects </h1> 
+                            </div>
+                        
+                        <div className="Chesscontainer">
+                            
+                                <div className = "Chessgame">
+                                        <video id="Chessvideo" src={chessmove} controls="controls" />
+                                    </div>
+
+                                    <div className="ChessDiscription">
+
+                                                <p>This is a basic chessboard set up with the actual moves of each piece added in.
+                                                    This was written in C# and the unity engine. </p>
+                                    </div>
+                        </div>
+
+                
+        
+
+                            
+                
                 </div>
-
-
-
-
-
-
-
-
 
         </div>
 </>

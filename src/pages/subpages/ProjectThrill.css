@@ -1,179 +1,189 @@
 /* ThrillCapital Project */
 
 .projectcontainer{
-    height: 150%;
+    height: auto;
+    width: 100%;
     background-color: rgb(68, 66, 66);
     color: #fff;
-    width: 100vw;
-    display: block;
     position: relative;
+    display: block;
     
 }
-.subbarcontainer{
-    text-align: center;
-}
-
-
-.ThrillTitle h1 {
-    font-family: 'Times New Roman', Times, serif;
-    margin : 0px;
-    padding-top: 20px; 
-    font-size: 5vw;
-    text-decoration: underline;
-    
-  }
-
-
 
 .thrillCapital {
+    position: relative;
     width: 100%;
-    padding-top: 1%;
+    height: 180vh
   
 }
 
+        .ThrillTitle h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin : 0px;
+            padding-top: 2%; 
+            font-size: 5vw;
+            text-decoration: underline;
+            
+        }
 
 
 
-.Thrillone{
-    
-    display: block;
-    position: relative;
-    float: left;
-    padding-left: 10%;
-    object-fit: contain;
-    width: 50%;
 
-}
 
-.Thrillone img {
-    width:35vw;
-    
-}
-
-.Thrilltwo{
-    display: block;
-    position: relative;
-    float: right;
-    padding-right: 10%;
-    object-fit: contain;
-    width: 50%;
-    
-}
-
-.Thrilltwo img {
-    width:35vw;
-    
+.ThrillImgcontainer {
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    padding-top: 5vh;
 }
 
 
+                    .Thrillone{
+                        
+                        display: block;
+                        position: absolute;
+                        padding-left: 10%;
+                        object-fit: contain;
+                        width: 50%;
+
+                    }
+
+                    .Thrillone img {
+                        width:30vw;
+                        
+                    }
+
+                    .Thrilltwo{
+                        display: block;
+                        position: absolute;
+                        left: 50%;
+                        object-fit: contain;
+                        width: 50%;
+                        
+                    }
+
+                    .Thrilltwo img {
+                        width:35vw;
+                        
+                    }
 
 
-.thrillblurb {
-
-    height: 30%;
-    width: 100vw;
-    padding-top: 20%;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: center;
-    position: relative;
-}
-
-.thrillblurb p { 
-    font-size: 1.2vw;
-
-}
 
 
-
-.thrillblurb2 {
-
-    padding-top: 1vw;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: center;
-    position: relative;
-    
-}
-
-.thrillblurb2 h1 {
-
-    text-decoration: underline;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2.2vw;
-
-}
-
-
-.thrillCapitalvideos{
-    width: 100vw;
-    padding-bottom: 2vw;
-    position: relative;
+.Thrillblurbcontainer{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    padding-top: 30%;
 }
 
 
-.ThrillFinal {
-width: 100%;
-height:auto;
+            .thrillblurb {
+
+                /* height: 30%; */
+                width: auto;
+                padding-left: 10%;
+                padding-right: 10%;
+                text-align: center;
+            }
+
+            .thrillblurb p { 
+                font-size: 1.2vw;
+
+            }
+
+
+
+            .thrillblurb2 {
+                padding-top: 5%;
+                padding-left: 10%;
+                padding-right: 10%;
+                text-align: center;
+
+                
+            }
+
+            .thrillblurb2 h1 {
+
+                text-decoration: underline;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 2.2vw;
+
+            }
+
+
+.thrillCapitalvideocontainer{
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    padding-top: 45%;
+
 }
 
-.ThrillFinal img {
 
-    width:70vw;
-    padding-left:30%
-    
-}
+                    .ThrillFinal {
+                    width: 100%;
+                    height:auto;
+                    padding-left:34%
+                    }
 
-.ThrillLink{
-    position: relative;
-    width: 100vw;
-    padding-left:35%;
-    padding-right:20%;
-    color: black
-    
-}
+                    .ThrillFinal img {
 
-.ThrillLink a {
-    background-color: #5e5e5e;
-    color: white;
-    padding: 2vh 5vw;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border: 1px solid black;
-    font-size: 2vw;
+                        width:30vw;
+                        
+                        
+                    }
 
-}
+                    .ThrillLink{
+                        position: absolute;
+                        width: auto;
+                        padding-left:35%;
+                        padding-right:20%;
+                        color: black
+                        
+                    }
 
+                    .ThrillLink a {
+                        background-color: #5e5e5e;
+                        color: white;
+                        padding: 2vh 5vw;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        border: 1px solid black;
+                        font-size: 2vw;
+
+                    }
 
 
 .Programs{
-    position: relative;
-    padding-top: 1%;  
+    position: absolute;
     width: 100%;
-    display: block;
+    height: 10%;   
     text-align: center;
+    padding-top: 80%;
 }
 
-.Programs h1{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2vw;
-    padding-bottom: 1%;
-}
-.Programs h2{
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.4vw;
-}
-.Git {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
+                .Programs h1{
+                    color: rgb(255, 255, 255);
+                    text-decoration: underline;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 2vw;
+                    padding-bottom: 1%;
+                }
+                .Programs h2{
+                    color: rgb(255, 255, 255);
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 1.4vw;
+                }
+                .Git {
+                    padding-top: 2%;
+                    padding-bottom: 2%;
+                }
 
-.Git p {
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.4vw;
-}
+                .Git p {
+                    color: rgb(255, 255, 255);
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 1.4vw;
+                }
