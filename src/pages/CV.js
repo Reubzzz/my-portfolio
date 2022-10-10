@@ -4,14 +4,14 @@ import CurrentCV from '../componets/Files/CV.pdf';
 import Navbar from '../componets/navbar'
 import Resume from '../componets/resumereader.js'
 
-import { Link } from "react-router-dom";
+
 import React from 'react';
-// import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+
 
 
 export default function CV(){
 
-    // const onDownload = () => '../componets/Files/CV.pdf' 
+
 
 
  
@@ -28,9 +28,8 @@ export default function CV(){
                 <Resume/>
 
              </div>
+             
              <div className='Download'>
-
-
                 <button id='downloadcv'>
                     <a href={CurrentCV} download="ReubenCV"> Download CV </a>
                 </button>
