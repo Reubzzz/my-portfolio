@@ -1,8 +1,9 @@
 import { useEffect} from 'react';
 import * as THREE from 'three' ;
-import gsap from 'gsap'
+
 
 import Smoke from '../img/smoke.png';
+
 
 
 
@@ -11,8 +12,23 @@ function Hero2() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
   useEffect(() => {
 
+    
+   
 
 
 
@@ -25,11 +41,9 @@ function Hero2() {
       75,
       window.innerWidth / window.innerHeight,
       0.1,
-      //2000
-      1000
+      2000
     );
-    //camera.position.z =605;
-    camera.position.z = 705;
+    camera.position.z = 605;
 
     const canvas = document.getElementById('Hero2');
     const renderer = new THREE.WebGLRenderer({
@@ -59,6 +73,21 @@ function Hero2() {
 //ParticleCloud
     particleSetup();
 
+
+
+//Color Change progress
+//      const randomColor = Math.floor(Math.random()*16777215).toString(16);
+
+//       var intervalID = window.setInterval(checkWeatherAPI, 6000);
+
+
+//        0x062d89
+//         "#"+randomColor
+
+
+
+
+
     function particleSetup() {
 
 
@@ -82,7 +111,7 @@ function Hero2() {
               map:texture,
               transparent: true
           });
-            //for(let p=880;p>250;p--)
+          
           for(let p=880;p>250;p--) {
               let particle = new THREE.Mesh(portalGeo,portalMaterial);
               particle.position.set(
@@ -94,7 +123,7 @@ function Hero2() {
               portalParticles.push(particle);
               scene.add(particle);
           }
-            //for(let p=0;p<40;p++)
+
           for(let p=0;p<40;p++) {
               let particle = new THREE.Mesh(smokeGeo,smokeMaterial);
               particle.position.set(
@@ -103,7 +132,7 @@ function Hero2() {
                   25
               );
               particle.rotation.z = Math.random() *360;
-              particle.material.opacity = 0.6;
+              particle.material.opacity = 0.2;
               portalParticles.push(particle);
               scene.add(particle);
           }
